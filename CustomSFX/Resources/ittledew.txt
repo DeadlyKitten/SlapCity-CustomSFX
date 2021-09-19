@@ -9,8 +9,6 @@ eat: grabpummel
 edge: grabedge 
 explosion: dsmash1 
 fireball: fireball p_nspecial 
-firehitbig: dsmash1 
-firehitmed: nspecial_v1 p_nspecial 
 footstep: walk tapdash turn 
 grabbed: grabbed 
 grabwhiff: tauntanim grab 
@@ -20,7 +18,6 @@ jump: jump0 jump1 shjump walljump
 ko: dieright dieleft diebottom diegrabbed diebox dieenemy 
 land: down landeasy landlag landlag_lc landlag_lc_2 landlag_special landlag_ad shieldbreakstand 
 lcancel: tapdash landlag_lc landlag_lc_2 
-mediumhit: getupatk dthrow jab2 ftilt utilt nair bair dair dspecial climbedgeatk 
 mediumwhiff: jab2 climbedgeatk 
 mediumwhoosh: utilt p_nspecial 
 moderateice: bair 
@@ -29,13 +26,10 @@ roll: dodgestill dodgefwd dodgeback getupfwd getupback climbup edgeroll
 shieldbreak: shieldbreak 
 shieldoff: dodgestill dodgefwd dodgeback shieldout shieldout_v1 
 shieldon: shield shield_v1 
-smallhit: tauntanim grabpummel jab0 jab1 dtilt nair fair uair 
-smallhitlow: uair 
+smallhit: grabpummel 
 smallice: fair 
 smallwhiff: fthrow jab0 jab1 
 starko: dietop 
-stronghit: usmash1 strair1 
-strongsword: fsmash1 
 strongwhiff: dthrow usmash1 dsmash1 strair1 p_nspecial p_dspecial 
 strongwhoof: dair 
 swordswing: ftilt dtilt fsmash1 

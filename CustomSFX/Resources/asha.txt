@@ -4,9 +4,6 @@ Sound FX id is on the left, moves that use it are on the right.
 
 airdodge: airdodge p_ad_land 
 charge: ustr 
-daggerhitbig: fstr1 
-daggerhitmedium: fair ftilt bair utilt climbedgeatk 
-daggerhitsmall: jab dair 
 daggerstab: tauntanim 
 daggerswingbig: fstr1 bair strair1 
 daggerswingmedium: fthrow dthrow fair ftilt utilt climbedgeatk 
@@ -21,8 +18,7 @@ jump: jump0 jump1 shjump walljump
 ko: dieright dieleft diebottom diegrabbed diebox dieenemy 
 land: down shieldbreakstand landeasy landlag landlag_lc landlag_lc_2 landlag_special landlag_ad 
 lcancel: tapdash landlag_lc landlag_lc_2 
-mediumhit: fthrow nair getupatk fair uair climbedgeatk 
-mediumsword: fthrow dthrow 
+mediumsword: dthrow 
 mediumwhiff: nair dtilt 
 mediumwhoosh: uair 
 plasma: round 
@@ -32,11 +28,7 @@ shieldbreak: shieldbreak
 shieldoff: shieldout dodgestill shieldout_v1 dodgefwd dodgeback 
 shieldon: shield shield_v1 
 smallelec: grabpummel 
-smallhit: nair tauntanim dtilt 
-smallsword: tauntanim 
 starko: dietop 
-stronghit: ustr1 
-strongsword: strair1 
 tech: techland techrollfwd techrollback techwall techceiling airtech 
 throw: fthrow bthrow uthrow 
 tinywhiff: tauntanim 

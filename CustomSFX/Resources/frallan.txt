@@ -8,7 +8,6 @@ clutch: air_str1
 cockgun: str_f str_u air_d air_str 
 cockgun2: str_f str_u air_str 
 dairblast: str_f1 air_d str_u1 air_str1 
-dairklonk: air_d 
 edge: grabedge 
 fastfall: tauntanim 
 footstep: walk tapdash turn 
@@ -30,30 +29,23 @@ lcancel: landlag_lc landlag_lc_2
 magicfanny: sp_d 
 magicsweep: sp_u air_u 
 magictouch: sp_n climbup sp_u edgeroll air_d 
-mediumhit: bthrow air_n str_f1 atk_f sp_u air_u atk_u atk_d str_u1 air_str1 dthrowtaunt 
-mediumhitlow: air_n2 
+mediumhit: bthrow dthrowtaunt 
 mediumwhiff: air_n atk_f air_d jab2 
 mediumwhoosh: air_f atk_u 
 motionalt: atk_d 
 nspbegin: sp_n 
-nsphit: sp_n 
 nspswing: sp_n 
 roll: dodgestill getupfwd getupback dodgefwd climbup dodgeback edgeroll 
 shieldbreak: shieldbreak 
 shieldoff: shieldout dodgestill shieldout_v1 dodgefwd dodgeback 
 shieldon: shield shield_v1 
-slap: fthrow 
-smallhit: grabpummel air_n jab getupatk sp_f climbedgeatk 
-smallhitlow: jab2 
+smallhit: grabpummel 
 smallwhiff: fthrow jab 
 sparkles: climbedgeatk 
 splat: entrance 
 starko: dietop 
-stronghit: str_f1 air_d str_u1 air_str1 
 strongwhiff: air_b air_n2 
 strongwhoof: entrance air_d atk_d air_f2 
-swordhitbig: air_f2 
-swordhitmed: air_f air_b 
 tauntmotion: taunt2 
 tech: techland techrollfwd techrollback techwall techceiling airtech 
 throw: bthrow uthrow 

@@ -33,8 +33,7 @@ ko: dieright dieleft diebottom diegrabbed diebox dieenemy
 land: down shieldbreakstand landeasy landlag landlag_lc landlag_lc_2 landlag_special landlag_ad 
 lcancel: tapdash landlag_lc landlag_lc_2 
 losemoney: hitlag grabbed tauntvask 
-mediumhit: uthrow dthrow nair getupatk fair ftilt bair spf2 utilt climbedgeatk spu 
-mediumsword: uair dair 
+mediumhit: spf2 
 mediumwhiff: climbedgeatk 
 motion: fair ustr 
 motionalt: jab dtilt 
@@ -47,16 +46,12 @@ shieldoff: shieldout dodgestill shieldout_v1 dodgefwd dodgeback
 shieldon: shield shield_v1 
 slam: uthrow 
 slide: getupfwd getupback techrollfwd techrollback dodgefwd climbup dodgeback edgeroll 
-smallhit: jab nair spn spn_sa dtilt dstr1 
-smallsword: uair dair 
-smashhit: fstr1 ustr1 
 sneakstep: walk 
 spin: bair 
 splat: fstr1 
 squeak: spd 
 starko: dietop 
 straircharge: strair 
-stronghit: strair1 
 strongwhiff: fair fstr1 ftilt ustr1 dstr1 strair1 
 talk: tauntanim crouchtaunt 
 tech: techland techrollfwd techrollback techwall techceiling airtech 

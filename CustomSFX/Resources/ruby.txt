@@ -17,8 +17,8 @@ jump: jump0 jump1 shjump walljump tauntanim3
 ko: dieright dieleft diebottom diegrabbed diebox dieenemy 
 land: down shieldbreakstand landeasy landlag landlag_lc landlag_lc_2 landlag_special landlag_ad 
 lcancel: tapdash landlag_lc landlag_lc_2 
-mediumhit: fthrow bthrow dthrow nair fair bair spf spu uair climbedgeatk spd spdg uair_v1 
-mediumsword: dthrow nair getupatk fair ftilt spn1 bair utilt uair nair_v1 spd fair_v1 spdg bair_v1 uair_v1 
+mediumhit: fthrow bthrow 
+mediumsword: dthrow 
 mediumwhiff: ftilt utilt dtilt climbedgeatk 
 mediumwhoosh: uair uair_v1 
 missile: spf 
@@ -28,13 +28,11 @@ rubibispark: tauntanim
 shieldbreak: shieldbreak 
 shieldoff: shieldout dodgestill shieldout_v1 dodgefwd dodgeback 
 shieldon: shield shield_v1 
-smallhit: spu 
-smallsword: grabpummel jab dtilt usmash1 dair strair 
+smallsword: grabpummel 
 smallwhiff: fthrow bthrow jab fair bair fair_v1 bair_v1 
 specialcancel: spn spf spu spd 
 spin: nair nair_v1 
 starko: dietop 
-strongsword: fsmash1 usmash1 dsmash1 strair1 
 strongwhiff: usmash1 dsmash1 strair1 
 swordswing: fsmash1 
 tech: techland techrollfwd techrollback techwall techceiling airtech 

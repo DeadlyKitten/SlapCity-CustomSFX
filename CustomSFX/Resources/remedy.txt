@@ -27,7 +27,7 @@ magicfanny: air_n
 magickick: air_f 
 magicsweep: air_u air_u_clutch 
 magictouch: fthrow atk_f climbup sp_u atk_u edgeroll air_d 
-mediumhit: fthrow bthrow dthrow air_n getupatk dthrowtaunt air_f air_b atk_f air_u atk_u air_d atk_d climbedgeatk air_u_clutch 
+mediumhit: bthrow dthrowtaunt 
 mediumwhiff: getupatk 
 mediumwhoosh: atk_u 
 motion: entrance sp_u 
@@ -40,14 +40,12 @@ roll: dodgestill getupfwd getupback dodgefwd climbup dodgeback edgeroll
 shieldbreak: shieldbreak 
 shieldoff: shieldout dodgestill shieldout_v1 dodgefwd dodgeback 
 shieldon: shield shield_v1 
-smallhit: grabpummel air_n jab 
+smallhit: grabpummel 
 smallwhiff: fthrow atk_f 
 sparkles: climbedgeatk 
 stab: grabpummel air_b 
 starko: dietop 
-stronghit: str_u1 
 strongwhoof: air_d atk_d 
 tech: techland techrollfwd techrollback techwall techceiling airtech 
 throw: bthrow uthrow 
 throwflask: sp_f 
-tipperbair: air_b 

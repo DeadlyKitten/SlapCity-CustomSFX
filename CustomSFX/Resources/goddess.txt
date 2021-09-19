@@ -14,9 +14,8 @@ counter: fstrtaunt dstr1 summon1 summon2 summon3
 descent: spu 
 edge: grabedge 
 fastfall: p_checkspecialfastfall 
-firehitbig: uthrow tauntthrow2 fstr1 fstrtaunt ustr1 dstr1 strair1 summon1 summon2 summon3 
-firehitmed: grabpummel fthrow uthrow dthrow spn getupatk tauntthrow2 fair fstr1 bair uair dair climbedgeatk dstr1 
-firehitsmall: jab_v1 nair_v1 explosions p_selectexplosion 
+firehitbig: uthrow 
+firehitmed: dthrow 
 flamedash: fstr 
 flamedive: dair 
 flamekick: fair 
@@ -40,7 +39,7 @@ ko: dieright dieleft diebottom diegrabbed diebox dieenemy
 land: down shieldbreakstand landeasy landlag landlag_lc landlag_lc_2 explosions landlag_special landlag_ad 
 lcancel: tapdash landlag_lc landlag_lc_2 
 liftoff: spu 
-mediumhit: grabpummel ftilt utilt dtilt spu 
+mediumhit: grabpummel 
 minimotion: fthrow getupatk 
 motion: dthrow dstr1 
 nukeburst: dstr1 
@@ -63,7 +62,6 @@ spellcast: spf
 spellfizzle: spf spd 
 spontaneous: jab_v1 nair_v1 explosions p_selectexplosion 
 starko: dietop 
-stronghit: landlag_explo 
 strongwhiff: bair 
 swish: uthrow tauntthrow2 
 swosh: uthrow tauntthrow2 
