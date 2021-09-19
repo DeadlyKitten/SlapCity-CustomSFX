@@ -1,0 +1,52 @@
+This file is meant to help you know which id corresponds to which moves.
+While not perfect, this should be useful in figuring out how to replace the sounds you want.
+Sound FX id is on the left, moves that use it are on the right.
+
+airdodge: airdodge p_ad_land 
+axefloor: fstr1 
+axefloorhard: strairland 
+axehorizontal: axe-spn-3 axe-spn 
+axevertical: spf axe-stru 
+backside: getupatk bair 
+boardroll: dtilt 
+boardstomp: kickflip dair 
+catchfire: ustr 
+crosscharge: uair 
+crossslash: uair 
+edge: grabedge 
+explode: kickflip 
+fastfall: p_checkspecialfastfall 
+footstep: walk tapdash turn 
+grabbed: grabbed 
+grabroll: dthrow 
+grabwhiff: grab 
+holler: dietop 
+intro: entrance 
+jump: spd jump0 jump1 kickflip shjump walljump 
+kick: ftilt 
+ko: dieright dieleft diebottom diegrabbed diebox dieenemy 
+land: down shieldbreakstand landeasy landlag landlag_lc landlag_lc_2 landlag_special landlag_ad 
+lcancel: tapdash landlag_lc landlag_lc_2 
+mediumhit: getupatk ftilt utilt dtilt ustr1 climbedgeatk kickflip dair 
+mediumsword: spd jab fair2 bair climbedgeatk uair 
+mediumwhiff: bthrow utilt 
+ollieflip: skate 
+olliejump: spu 
+roll: dodgestill getupfwd getupback dodgefwd climbup dodgeback edgeroll 
+shieldbreak: shieldbreak 
+shieldoff: shieldout dodgestill shieldout_v1 dodgefwd dodgeback 
+shieldon: shield shield_v1 
+slap: crouch instacrouch 
+smallhit: grabpummel nair 
+smallwhiff: fthrow jab 
+spin: spd 
+starko: dietop 
+straircharge: strair 
+strairslash: fair strair1 
+stronghit: fthrow kickflip 
+strongsword: fair fstr1 dstr1 strair1 strairland 
+strongwhiff: fair fstr1 fair2 climbedgeatk dstr1 
+tailwhiff: nair 
+tech: techland techrollfwd techrollback techwall techceiling airtech 
+throw: bthrow uthrow 
+ustrstore: ustrstore tauntanim2 

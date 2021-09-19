@@ -1,0 +1,71 @@
+This file is meant to help you know which id corresponds to which moves.
+While not perfect, this should be useful in figuring out how to replace the sounds you want.
+Sound FX id is on the left, moves that use it are on the right.
+
+airdodge: dodgestill airdodge p_ad_land 
+bigexplosion: fstr1 
+bigexplosionnuke: tauntthrow2 fstrtaunt summon1 summon2 summon3 
+burst: dstr1 
+buster1: tauntthrow2 
+buster2: tauntthrow2 
+chargetaunt: fstrtaunt 
+clutch: dairrecoil 
+counter: fstrtaunt dstr1 summon1 summon2 summon3 
+descent: spu 
+edge: grabedge 
+fastfall: p_checkspecialfastfall 
+firehitbig: uthrow tauntthrow2 fstr1 fstrtaunt ustr1 dstr1 strair1 summon1 summon2 summon3 
+firehitmed: grabpummel fthrow uthrow dthrow spn getupatk tauntthrow2 fair fstr1 bair uair dair climbedgeatk dstr1 
+firehitsmall: jab_v1 nair_v1 explosions p_selectexplosion 
+flamedash: fstr 
+flamedive: dair 
+flamekick: fair 
+flamekicksmall: ftilt 
+flameland: landlag_lc 
+flamerise: climbedgeatk 
+flamewhirl: uair 
+flight: edgeroll 
+focusa: tauntthrow fstrtaunt strair1 
+focusb: spn 
+footstep: walk tapdash turn 
+glimmer: tauntanim 
+glimt: spd 
+grabbed: grabbed 
+grabwhiff: grab 
+holler: dietop 
+idleflames: idle 
+jump: jump0 jump1 shjump walljump 
+kickexplosion: entrance tauntthrow2 ustr1 
+ko: dieright dieleft diebottom diegrabbed diebox dieenemy 
+land: down shieldbreakstand landeasy landlag landlag_lc landlag_lc_2 explosions landlag_special landlag_ad 
+lcancel: tapdash landlag_lc landlag_lc_2 
+liftoff: spu 
+mediumhit: grabpummel ftilt utilt dtilt spu 
+minimotion: fthrow getupatk 
+motion: dthrow dstr1 
+nukeburst: dstr1 
+planetcrash: tauntthrow2 landlag_explo 
+popsmall: crouchend 
+quickblast: dtilt 
+quickflight: climbup 
+revflame: utilt 
+roll: getupfwd getupback techrollfwd techrollback dodgefwd dodgeback 
+saturngather: tauntthrow 
+shieldbreak: shieldbreak 
+shieldoff: shieldout dodgestill shieldout_v1 dodgefwd dodgeback 
+shieldon: shield shield_v1 
+smallwhiff: dtilt ustr1 
+snapexplosion: spn getupatk fstr1 
+snapexplosionbig: strair1 
+snapnuke: strair1 
+spellcancel: spffizzle 
+spellcast: spf 
+spellfizzle: spf spd 
+spontaneous: jab_v1 nair_v1 explosions p_selectexplosion 
+starko: dietop 
+stronghit: landlag_explo 
+strongwhiff: bair 
+swish: uthrow tauntthrow2 
+swosh: uthrow tauntthrow2 
+tech: techland techrollfwd techrollback techwall techceiling airtech 
+throw: bthrow 

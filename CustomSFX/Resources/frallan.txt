@@ -1,0 +1,60 @@
+This file is meant to help you know which id corresponds to which moves.
+While not perfect, this should be useful in figuring out how to replace the sounds you want.
+Sound FX id is on the left, moves that use it are on the right.
+
+airdodge: airdodge p_ad_land 
+choir: dthrow 
+clutch: air_str1 
+cockgun: str_f str_u air_d air_str 
+cockgun2: str_f str_u air_str 
+dairblast: str_f1 air_d str_u1 air_str1 
+dairklonk: air_d 
+edge: grabedge 
+fastfall: tauntanim 
+footstep: walk tapdash turn 
+grabbed: grabbed 
+grabwhiff: grab 
+gunclick1: ejectshell3 
+gunclick2: ejectshell3 
+gunclick3: ejectshell3 str_dtaunt 
+gunspin: str_dtaunt 
+heal: grabpummel 
+healthrow: dthrow 
+holler: dietop 
+jump: tauntanim jump0 jump1 shjump walljump 
+kiss: dthrowtaunt 
+ko: dieright dieleft diebottom diegrabbed diebox dieenemy 
+land: down shieldbreakstand landeasy landlag landlag_lc landlag_lc_2 landlag_special landlag_ad 
+laser: str_f1 str_u1 air_str1 
+lcancel: landlag_lc landlag_lc_2 
+magicfanny: sp_d 
+magicsweep: sp_u air_u 
+magictouch: sp_n climbup sp_u edgeroll air_d 
+mediumhit: bthrow air_n str_f1 atk_f sp_u air_u atk_u atk_d str_u1 air_str1 dthrowtaunt 
+mediumhitlow: air_n2 
+mediumwhiff: air_n atk_f air_d jab2 
+mediumwhoosh: air_f atk_u 
+motionalt: atk_d 
+nspbegin: sp_n 
+nsphit: sp_n 
+nspswing: sp_n 
+roll: dodgestill getupfwd getupback dodgefwd climbup dodgeback edgeroll 
+shieldbreak: shieldbreak 
+shieldoff: shieldout dodgestill shieldout_v1 dodgefwd dodgeback 
+shieldon: shield shield_v1 
+slap: fthrow 
+smallhit: grabpummel air_n jab getupatk sp_f climbedgeatk 
+smallhitlow: jab2 
+smallwhiff: fthrow jab 
+sparkles: climbedgeatk 
+splat: entrance 
+starko: dietop 
+stronghit: str_f1 air_d str_u1 air_str1 
+strongwhiff: air_b air_n2 
+strongwhoof: entrance air_d atk_d air_f2 
+swordhitbig: air_f2 
+swordhitmed: air_f air_b 
+tauntmotion: taunt2 
+tech: techland techrollfwd techrollback techwall techceiling airtech 
+throw: bthrow uthrow 
+throwflask: sp_f 

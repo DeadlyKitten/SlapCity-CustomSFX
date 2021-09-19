@@ -1,0 +1,16 @@
+﻿The following strings are for global sound fx (sounds not tied to a character)
+You can also place sounds in here that will override matching IDs for all characters
+Precedence works as follows: Character > Global > Defaults
+
+bounce
+clang
+shieldhit
+invincible
+objectbounce
+pshieldhit
+timeup
+gamedraw
+gamewinner
+fastfall
+goal
+gshieldhit

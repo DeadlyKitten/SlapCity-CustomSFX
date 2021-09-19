@@ -1,0 +1,54 @@
+This file is meant to help you know which id corresponds to which moves.
+While not perfect, this should be useful in figuring out how to replace the sounds you want.
+Sound FX id is on the left, moves that use it are on the right.
+
+airdodge: airdodge p_ad_land 
+blow: fthrow 
+bodyimpact: dstr1 dstr2 dstr3 
+bull: spf 
+charge0: spd 
+charge1: spd 
+charge2: spd 
+charge3: spd 
+charge4: spd 
+charge5: spd 
+charge6: spd 
+chestbop: uair 
+edge: grabedge 
+footstep: walk tapdash turn spfrun 
+grabbed: grabbed 
+grabwhiff: grab 
+hilo: dtilt 
+holler: dietop 
+honk: spfrun 
+jump: dstr1 dthrow dstr2 dstr3 spn spfrun jump0 jump1 shjump walljump 
+klonk: nair getupatk 
+ko: dieright dieleft diebottom diegrabbed diebox dieenemy 
+land: landeasy landlag landlag_lc landlag_lc_2 landlag_special landlag_ad 
+landheavy: fstr1 down shieldbreakstand dair 
+lcancel: tapdash landlag_lc landlag_lc_2 
+mechabunlaugh: tauntanim 
+mediumhit: grabpummel uthrow dthrow dstr1rec dstr2 dstr2rec dstr3 nair spn getupatk fair ftilt utilt dtilt climbedgeatk dair spdair 
+mediumwhiff: nair fair spd 
+metalhit: grabpummel bair dtilt spu 
+motion: dstr2rec getupatk tauntanim fair climbedgeatk dair taunt2ab 
+motionalt: dstr1rec dstr3 
+pose: ustr1 
+roll: dodgestill getupfwd getupback techrollfwd techrollback dodgefwd climbup dodgeback edgeroll 
+ruination: fstr1 ustr1 dstr1rec dstr2 dstr2rec dstr3 spn spfatk Ruination 
+shieldbreak: shieldbreak 
+shieldoff: shieldout dodgestill shieldout_v1 dodgefwd dodgeback 
+shieldon: shield shield_v1 
+shine: dstr1rec dstr2 dstr2rec dstr3 spn 
+shoryuken: spu 
+slaphit: jab 
+smallwhiff: grabpummel ustr1 jab getupatk uair 
+starko: dietop 
+stronghit: fstr1 ustr1 bthrow dstr1 dthrow dstr1rec dstr2 dstr2rec dstr3 spn fair spfatk uair spu 
+strongsword: fstr1 
+strongwhiff: fstr1 strair1 bair utilt spfatk spdair 
+swordswing: fstr1 ftilt 
+tech: techland techrollfwd techrollback techwall techceiling airtech 
+throw: bthrow uthrow 
+trustfall: dstr1 dstr2 dstr3 
+whip: spd spdair 
