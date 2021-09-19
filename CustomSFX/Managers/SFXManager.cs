@@ -110,8 +110,6 @@ namespace CustomSFX.Managers
             var filename = $"{path.Split('\\').Last()}.txt";
             var resourceName = $"CustomSFX.Resources.{filename}";
 
-            Plugin.LogInfo("Resource name = " + resourceName);
-
             using (Stream stream = assembly.GetManifestResourceStream(resourceName))
             {
                 if (stream == null) return;
