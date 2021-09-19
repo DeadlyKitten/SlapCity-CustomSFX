@@ -1,6 +1,6 @@
 # Slap City Custom SFX
 
-This mod allows you to override virtually every sound effect in Slap City. Replacement can be done per character, or globally across characters who share sounds. Replacing a sound is as simple as obtaining an audio file (in ogg vorbis format), naming it after the sound you want to replace, and placing it in the correct folder!
+This mod allows you to override virtually every sound effect in Slap City. Replacement can be done per character, or globally across characters who share sounds. Replacing a sound is as simple as obtaining an audio file (in ogg vorbis or WAV format), naming it after the sound you want to replace, and placing it in the correct folder!
 
 ## Installation
 
@@ -22,7 +22,7 @@ Delete `BepInEx/plugins/CustomSFX.dll`.
 
 Before doing anything else, make sure you run the game at least once with the mod installed (you don't have to play a match, simply going to the main menu will suffice). This will generate a folder for each character under `BepInEx/Custom SFX`.
 
-To override a sound effect, simply place a sound file (all sounds **must** be in ogg vorbis format, mp3 will not work!) into the desired character's folder with the same name as the sound effect you want to replace. You'll find a text file in each character's folder that contains a list of sound effect IDs and the moves that utilize them.
+To override a sound effect, simply place a sound file (all sounds **must** be in ogg vorbis or WAV format, mp3 will not work!) into the desired character's folder with the same name as the sound effect you want to replace. You'll find a text file in each character's folder that contains a list of sound effect IDs and the moves that utilize them.
 
 Alternatively, you can place sound effects into the `BepInEx/Custom SFX/global` folder to override sound effects that do not correspond with a particular character, or to override a sound effect with a particular ID that is shared by many characters (specific character folders take precedence).
 
@@ -36,7 +36,7 @@ To override a sound effect with multiple audio files, create a folder with the n
 
 ### Notes
 
-- All sounds **must** be in ogg vorbis format. Other formats like mp3 **will not** work. This is due to a limitation with earlier versions of Unity where it is unable to load mp3 files.
+- All sounds **must** be in ogg vorbis or WAV format. Other formats like mp3 **will not** work. This is due to a limitation with earlier versions of Unity where it is unable to load mp3 files.
 - The text files located in each folder contain all of the available sound IDs that you can replace, as well as the moves that utilize them. However, it may take some trial and error to figure out how to replace a particular sound.
 - You might need to edit sounds for various reasons, such as fixing the timing or altering the volume. I recommend [Audacity](https://www.audacityteam.org/) for this, as it's free, easy to use, and can load most audio formats and export ogg files.
 - You can use the globals folder to edit sounds for multiple characters (e.g. the `stronghit` sound or the `ko` sound). Individual characters take precedence over global replacement.
