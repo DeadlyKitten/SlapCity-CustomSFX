@@ -67,6 +67,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\SmashSFX_Extensions.cs" />
+    <Compile Include="GlobalSuppressions.cs" />
     <Compile Include="Managers\SFXManager.cs" />
     <Compile Include="Patches\SmashSFX_Play.cs" />
     <Compile Include="Patches\SmashSFXBank_PlaySFX.cs" />

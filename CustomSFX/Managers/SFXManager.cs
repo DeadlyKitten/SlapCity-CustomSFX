@@ -113,10 +113,8 @@ namespace CustomSFX.Managers
             using (Stream stream = assembly.GetManifestResourceStream(resourceName))
             {
                 if (stream == null) return;
-                using (StreamReader reader = new StreamReader(stream))
-                {
-                    textToWrite = reader.ReadToEnd();
-                }
+                using StreamReader reader = new StreamReader(stream);
+                textToWrite = reader.ReadToEnd();
             }
 
             if (textToWrite == null) return;
