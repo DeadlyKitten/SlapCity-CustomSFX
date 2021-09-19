@@ -39,7 +39,7 @@ To override a sound effect with multiple audio files, create a folder with the n
 - All sounds **must** be in ogg vorbis or WAV format. Other formats like mp3 **will not** work. This is due to a limitation with earlier versions of Unity where it is unable to load mp3 files.
 - The text files located in each folder contain all of the available sound IDs that you can replace, as well as the moves that utilize them. However, it may take some trial and error to figure out how to replace a particular sound.
 - You might need to edit sounds for various reasons, such as fixing the timing or altering the volume. I recommend [Audacity](https://www.audacityteam.org/) for this, as it's free, easy to use, and can load most audio formats and export ogg files.
-- You can use the globals folder to edit sounds for multiple characters (e.g. the `stronghit` sound or the `ko` sound). Individual characters take precedence over global replacement.
+- You can use the globals folder to edit sounds for multiple characters (e.g. the `ko` sound). Individual characters take precedence over global replacement. (Hitsounds can **only** be replaced globally)
   - i.e. if you have a `ko.ogg` in the globals folder and in fishbunjin's folder, fishbunjin will use the file in his folder while every other character uses the one in the globals folder (unless they override it as well).
   
 ------------------------------
