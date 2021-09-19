@@ -39,7 +39,7 @@ namespace CustomSFX.Managers
 
                 WriteFile(characterPath);
 
-                foreach (var file in Directory.GetFiles(characterPath, "*.ogg"))
+                foreach (var file in Directory.GetFiles(characterPath).Where(x => Path.GetExtension(x) == ".ogg" || Path.GetExtension(x) == ".wav"))
                 {
                     Plugin.Instance.StartCoroutine(LoadAudioClip(file));
                     stillLoading++;
@@ -47,7 +47,7 @@ namespace CustomSFX.Managers
 
                 foreach (var directory in Directory.GetDirectories(characterPath))
                 {
-                    foreach (var file in Directory.GetFiles(directory))
+                    foreach (var file in Directory.GetFiles(directory).Where(x => Path.GetExtension(x) == ".ogg" || Path.GetExtension(x) == ".wav"))
                     {
                         var _character = Directory.GetParent(directory).Name;
                         var _name = Directory.GetParent(file).Name;
@@ -63,7 +63,8 @@ namespace CustomSFX.Managers
 
         static IEnumerator LoadAudioClip(string path, string character = null, string name = null)
         {
-            var loader = UnityWebRequestMultimedia.GetAudioClip(path, AudioType.OGGVORBIS);
+            var audioType = (Path.GetExtension(path) == ".wav") ? AudioType.WAV : AudioType.OGGVORBIS;
+            var loader = UnityWebRequestMultimedia.GetAudioClip(path, audioType);
             yield return loader.SendWebRequest();
 
             if (loader.error != null)
