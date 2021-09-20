@@ -9,7 +9,7 @@ namespace CustomSFX.Extensions
     static class SmashSFX_Extensions
     {
 		static readonly MethodInfo SmashSFX_Blocked = typeof(SmashSFX).GetMethod("Blocked", BindingFlags.Static | BindingFlags.NonPublic);
-		static readonly MethodInfo SmashSFX_AddBlock = typeof(SmashSFX).GetMethod("Blocked", BindingFlags.Static | BindingFlags.NonPublic);
+		static readonly MethodInfo SmashSFX_AddBlock = typeof(SmashSFX).GetMethod("AddBlock", BindingFlags.Static | BindingFlags.NonPublic);
 
         public static void Play(this SmashSFX sfx, List<AudioClip> clips, object obj = null)
         {
