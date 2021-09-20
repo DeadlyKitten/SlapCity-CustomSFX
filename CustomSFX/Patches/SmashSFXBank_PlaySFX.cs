@@ -13,7 +13,7 @@ namespace CustomSFX.Patches
     {
         static bool Prefix(SmashSFXBank __instance, string id, SmashCharacter sc)
         {
-            var key = (sc == null) ? "global": sc.gameObject.name.Split('(')[0].ToLower();
+            var key = (sc == null) ? "global" : SmashLoader.Instance.GetPlayer(sc.playerindex).currentlyCharacter.ToLower();
             if (SFXManager.customSFXDict.TryGetValue(key, out var bank))
             {
                 if (bank.TryGetValue(id, out var sfx))
